@@ -17,17 +17,10 @@ multilingual music genre embedding space representations can be leveraged to
     </p>
 </div>
 
-Based on annotations from one or several sources languages, our system automatically
-predicts the corresponding annotations in a target language.
+Based on annotations from one or several sources languages<sup>1</sup>, our system automatically
+predicts the corresponding annotations in a target language<sup>1</sup>.
 
-Languages supported:
-
-- French (fr)
-- English (en)
-- Spanish (es)
-- Dutch (nl)
-- Czech (cs)
-- Japanese (ja)
+> <sup>1</sup> Languages supported: French (fr), English (en), Spanish (es), Dutch (nl), Czech (cs), Japanese (ja)
 
 ## Technical Details
 
