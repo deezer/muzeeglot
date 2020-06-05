@@ -12,7 +12,7 @@ multilingual music genre embedding space representations can be leveraged to
         src="https://github.com/deezer/muzeeglot/blob/master/screenshot.png?raw=true"
         width="70%">
     <p>
-        [Muzeeglot](https://research.deezer.com/muzeeglot) includes a web interface to visualize these
+        <a href="https://research.deezer.com/muzeeglot">Muzeeglot</a> includes a web interface to visualize these
         multilingual music genres embeddings.
     </p>
 </div>
