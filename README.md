@@ -2,7 +2,7 @@
 
 [![Live demo](https://img.shields.io/badge/Live-demo-blue)](https://research.deezer.com/muzeeglot)
 
-In this repository, we present **Muzeeglot**, a propotype aiming at illustrating how
+In this repository, we present [Muzeeglot](https://research.deezer.com/muzeeglot), a propotype aiming at illustrating how
 multilingual music genre embedding space representations can be leveraged to
 **generate cross-lingual music genre annotations** for
 [DBpedia](https://wiki.dbpedia.org/) music entities (artists, albums, tracks...).
@@ -12,7 +12,7 @@ multilingual music genre embedding space representations can be leveraged to
         src="https://github.com/deezer/muzeeglot/blob/master/screenshot.png?raw=true"
         width="70%">
     <p>
-        Muzeeglot includes a web interface to visualize these
+        [Muzeeglot](https://research.deezer.com/muzeeglot) includes a web interface to visualize these
         multilingual music genres embeddings.
     </p>
 </div>
@@ -31,7 +31,7 @@ Languages supported:
 
 ## Technical Details
 
-Muzeeglot will be presented as a demonstration at [JEP-TALN-RECITAL 2020](https://jep-taln2020.loria.fr).
+[Muzeeglot](https://research.deezer.com/muzeeglot) will be presented as a demonstration at [JEP-TALN-RECITAL 2020](https://jep-taln2020.loria.fr).
 
 This [extended abstract](https://jep-taln2020.loria.fr/wp-content/uploads/JEP-TALN-RECITAL-2020_paper_156.pdf) (in French) from the conference provides more information on [Muzeeglot](https://research.deezer.com/muzeeglot). Feel free to also check out those [slides](https://github.com/deezer/muzeeglot/blob/master/presentation.pdf) for more information in English.
 
