@@ -2,9 +2,9 @@
 
 In this repository, we present **Muzeeglot**, a propotype aiming at illustrating how multilingual music genre embedding space representations can be leveraged to **generate cross-lingual music genre annotations** for [DBpedia](https://wiki.dbpedia.org/) music entities (artists, albums, tracks...).
 
-Based on annotations from one or several sources languages, our system automatically predicts the corresponding genres annotations in a target language.
+Based on annotations from one or several sources languages, our system automatically predicts the corresponding annotations in a target language.
 
-Muzeeglot has a web interface allowing to also **visualize the multilingual music genres embeddings**.
+Muzeeglot includes a web interface to **visualize these multilingual music genres embeddings**.
 
 Languages supported: French (fr), English (en), Spanish (es), Dutch (nl), Czech (cs), Japanese (ja).
 
