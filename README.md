@@ -1,12 +1,33 @@
 # Muzeeglot
 
-In this repository, we present **Muzeeglot**, a propotype aiming at illustrating how multilingual music genre embedding space representations can be leveraged to **generate cross-lingual music genre annotations** for [DBpedia](https://wiki.dbpedia.org/) music entities (artists, albums, tracks...).
+[![Live demo](https://img.shields.io/badge/Live-demo-blue)](https://research.deezer.com/muzeeglot)
 
-Based on annotations from one or several sources languages, our system automatically predicts the corresponding annotations in a target language.
+In this repository, we present **Muzeeglot**, a propotype aiming at illustrating how
+multilingual music genre embedding space representations can be leveraged to
+**generate cross-lingual music genre annotations** for
+[DBpedia](https://wiki.dbpedia.org/) music entities (artists, albums, tracks...).
 
-Muzeeglot includes a web interface to **visualize these multilingual music genres embeddings**.
+Based on annotations from one or several sources languages, our system automatically
+predicts the corresponding annotations in a target language.
 
-Languages supported: French (fr), English (en), Spanish (es), Dutch (nl), Czech (cs), Japanese (ja).
+<div align="center">
+    <img
+        src="https://github.com/deezer/muzeeglot/blob/master/screenshot.png?raw=true"
+        style="-webkit-filter: drop-shadow(5px 5px 5px #222); filter: drop-shadow(5px 5px 5px #222);">
+    <p>
+        Muzeeglot includes a web interface to visualize these
+        multilingual music genres embeddings.
+    </p>
+</div>
+
+Languages supported:
+
+- French (fr)
+- English (en)
+- Spanish (es)
+- Dutch (nl)
+- Czech (cs)
+- Japanese (ja)
 
 ## Technical Details
 
@@ -32,3 +53,4 @@ In this repository, we will also soon release the source code of Muzeeglot.
   note={Deezer Research},
   year={2020}
 }
+```
