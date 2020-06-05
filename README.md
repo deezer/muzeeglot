@@ -17,16 +17,23 @@ multilingual music genre embedding space representations can be leveraged to
     </p>
 </div>
 
-Based on annotations from one or several sources languages<sup>1</sup>, our system automatically
-predicts the corresponding annotations in a target language<sup>1</sup>.
+Based on annotations from one or several sources languages, our system automatically
+predicts the corresponding annotations in a target language.
 
-> <sup>1</sup> Languages supported: French (fr), English (en), Spanish (es), Dutch (nl), Czech (cs), Japanese (ja)
+Languages supported:
+
+- French (fr)
+- English (en)
+- Spanish (es)
+- Dutch (nl)
+- Czech (cs)
+- Japanese (ja)
 
 ## Technical Details
 
 Muzeeglot will be presented as a demonstration at [JEP-TALN-RECITAL 2020](https://jep-taln2020.loria.fr).
 
-This [extended abstract](https://jep-taln2020.loria.fr/wp-content/uploads/JEP-TALN-RECITAL-2020_paper_156.pdf) (in French) from the conference provides more information on Muzeeglot. Feel free to also check out the slides from the `presentation.pdf` file for more information in English.
+This [extended abstract](https://jep-taln2020.loria.fr/wp-content/uploads/JEP-TALN-RECITAL-2020_paper_156.pdf) (in French) from the conference provides more information on [Muzeeglot](https://research.deezer.com/muzeeglot). Feel free to also check out those [slides](https://github.com/deezer/muzeeglot/blob/master/presentation.pdf) for more information in English.
 
 ## Demonstration
 
