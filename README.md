@@ -7,18 +7,18 @@ multilingual music genre embedding space representations can be leveraged to
 **generate cross-lingual music genre annotations** for
 [DBpedia](https://wiki.dbpedia.org/) music entities (artists, albums, tracks...).
 
-Based on annotations from one or several sources languages, our system automatically
-predicts the corresponding annotations in a target language.
-
 <div align="center">
     <img
         src="https://github.com/deezer/muzeeglot/blob/master/screenshot.png?raw=true"
-        style="-webkit-filter: drop-shadow(5px 5px 5px #222); filter: drop-shadow(5px 5px 5px #222);">
+        width="70%">
     <p>
         Muzeeglot includes a web interface to visualize these
         multilingual music genres embeddings.
     </p>
 </div>
+
+Based on annotations from one or several sources languages, our system automatically
+predicts the corresponding annotations in a target language.
 
 Languages supported:
 
