@@ -13,7 +13,7 @@ multilingual music genre embedding space representations can be leveraged to
         width="70%">
     <p>
         <a href="https://research.deezer.com/muzeeglot">Muzeeglot</a> includes a web interface to visualize these
-        multilingual music genres embeddings.
+        multilingual music genre embeddings.
     </p>
 </div>
 
@@ -48,7 +48,7 @@ In this repository, we will also soon release the source code of Muzeeglot.
 @misc{muzeeglot2020,
   title={Muzeeglot : annotation multilingue et multi-sources d'entités musicales à partir de représentations de genres musicaux},
   author={Epure, Elena V. and Salha, Guillaume and Voituret, Félix and Baranes, Marion and Hennequin, Romain},
-  howpublished={JEP-TALN Demonstration Track},
+  howpublished={JEP-TALN Demonstrations Track},
   month={June},
   note={Deezer Research},
   year={2020}
