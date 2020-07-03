@@ -1,7 +1,5 @@
 # Muzeeglot
 
-[![Live demo](https://img.shields.io/badge/Live-demo-blue)](https://research.deezer.com/muzeeglot)
-
 In this repository, we present [Muzeeglot](https://research.deezer.com/muzeeglot), a propotype aiming at illustrating how
 multilingual music genre embedding space representations can be leveraged to
 **generate cross-lingual music genre annotations** for
