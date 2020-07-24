@@ -43,12 +43,12 @@ In this repository, we will also soon release the source code of Muzeeglot.
 ## Cite
 
 ```BibTeX
-@misc{muzeeglot2020,
-  title={Muzeeglot : annotation multilingue et multi-sources d'entités musicales à partir de représentations de genres musicaux},
-  author={Epure, Elena V. and Salha, Guillaume and Voituret, Félix and Baranes, Marion and Hennequin, Romain},
-  howpublished={JEP-TALN Demonstrations Track},
-  month={June},
-  note={Deezer Research},
-  year={2020}
+@inproceedings{epure2020muzeeglot,
+  title={Muzeeglot: annotation multilingue et multi-sources d'entit{\'e}s musicales {\`a} partir de repr{\'e}sentations de genres musicaux},
+  author={Epure, Elena V and Salha, Guillaume and Voituret, F{\'e}lix and Baranes, Marion and Hennequin, Romain},
+  booktitle={Actes de la 6e conf{\'e}rence conjointe Journ{\'e}es d'{\'E}tudes sur la Parole (JEP, 31e {\'e}dition), Traitement Automatique des Langues Naturelles (TALN, 27e {\'e}dition), Rencontre des {\'E}tudiants Chercheurs en Informatique pour le Traitement Automatique des Langues (R{\'E}CITAL, 22e {\'e}dition). Volume 4: D{\'e}monstrations et r{\'e}sum{\'e}s d'articles internationaux},
+  pages={18--21},
+  year={2020},
+  organization={ATALA}
 }
 ```
