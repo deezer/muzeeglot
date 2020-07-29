@@ -35,8 +35,6 @@ This [extended abstract](https://jep-taln2020.loria.fr/wp-content/uploads/JEP-TA
 
 ## Demonstration
 
-The demo is currently live [here](https://research.deezer.com/muzeeglot).
-
 In this repository, we will also soon release the source code of Muzeeglot.
 
 
