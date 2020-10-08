@@ -1,0 +1,60 @@
+version: '2.3'
+# ============================================================
+# Service specifications.
+services:
+  # ----------------------------------------------------
+  # Redis storage.
+  storage:
+    image: redis
+    networks:
+      muzeeglot-network:
+        aliases:
+          - redis
+    command:
+      - 'redis-server'
+      - '--appendonly'
+      - 'yes'
+    volumes:
+      - muzeeglot-storage:/data
+  # ----------------------------------------------------
+  # Application backend.
+  api:
+    build:
+      context: api
+    expose:
+      - 80
+    networks:
+      muzeeglot-network:
+        aliases:
+          - api
+    volumes:
+      - $PWD/api/data:/opt/muzeeglot/data
+      - muzeeglot-indexes:/opt/muzeeglot/indexes
+    depends_on:
+      - storage
+  # ----------------------------------------------------
+  # Application frontend
+  frontend:
+    build:
+      context: frontend
+      target: muzeeglot-ssl
+    ports:
+      - 80:80
+      - 443:443
+    networks:
+      - muzeeglot-network
+    volumes:
+      - muzeeglot-certificates:/etc/letsencrypt
+    depends_on:
+      - api
+# ============================================================
+# Network specifications.
+networks:
+  muzeeglot-network:
+# ============================================================
+# Volume specifications.
+volumes:
+  muzeeglot-storage:
+  muzeeglot-indexes:
+  muzeeglot-certificates:
+    external: true
