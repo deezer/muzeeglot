@@ -152,7 +152,7 @@ If you want to use your own data, please provide the following files into `api/d
 How we learn multilingual music genre embeddings in more detail:
 
 ```BibTeX
-@inproceedings{epure2020muzeeglot,
+@inproceedings{epure2020modeling,
   title={Modeling the Music Genre Perception across Language-Bound Cultures},
   author={Epure, Elena V and Salha, Guillaume and Manuel, Moussallam and Hennequin, Romain},
   booktitle={The 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP 2020)},
