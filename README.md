@@ -1,6 +1,6 @@
 # Muzeeglot
 
-In this repository, we present [Muzeeglot](https://research.deezer.com/muzeeglot),
+In this repository, we present [Muzeeglot](https://www.aclweb.org/anthology/2020.jeptalnrecital-demos.5.pdf),
 a propotype aiming at illustrating how multilingual music genre embedding space
 representations can be leveraged to **generate cross-lingual music genre annotations**
 for [DBpedia](https://wiki.dbpedia.org/) music entities (artists, albums, tracks, etc ...).
