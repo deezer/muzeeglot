@@ -24,7 +24,7 @@ for [DBpedia](https://wiki.dbpedia.org/) music entities (artists, albums, tracks
 
 ## How it works
 
-Based on annotations from one or several sources languages, our system automatically
+Based on annotations from one or several source languages, our system automatically
 predicts the corresponding annotations in a target language.
 
 Languages supported:
@@ -128,11 +128,11 @@ Additional goals can be used to provide extra parameters:
 
 If you want to use your own data, please provide the following files into `api/data` directory<sup>2</sup>:
 
-- Embeddings for mapping are expected through `embeddings.csv` CSV file.
+- Tag embeddings such as music genres are expected through `embeddings.csv` CSV file.
 - Reduced embeddings for display are expected through `embeddings_reduced.csv` CSV file.
 - Supported language are expected through `languages.csv` CSV file.
 - Indexed entities are expected through `entites.csv` CSV file.
-- Genre mapping corpus is expected through `corpus.csv` CSV file.
+- Test corpus is expected through `corpus.csv` CSV file.
 
 > <sup>2</sup> you need to clean the data storage and index to force data ingestion when you redeploy.
 
