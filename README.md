@@ -158,6 +158,6 @@ How we learn multilingual music genre embeddings in more detail:
   booktitle={The 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP 2020)},
   month = nov,
   year={2020},
-  publisher = "Association for Computational Linguistics",
+  publisher = {Association for Computational Linguistics},
 }
 ```
