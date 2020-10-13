@@ -13,7 +13,8 @@ RUN pip install --no-cache-dir \
         gunicorn \
         redis \
         aiofiles \
-        requests
+        requests \
+        uvloop
 
 COPY src/ muzeeglot/
 COPY entrypoint.sh ./
