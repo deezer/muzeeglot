@@ -13,6 +13,7 @@ RUN pip install --no-cache-dir \
         fastapi \
         uvicorn \
         gunicorn \
+        httptools \
         redis \
         aiofiles \
         requests \
