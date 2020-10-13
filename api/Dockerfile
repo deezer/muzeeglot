@@ -7,6 +7,7 @@ WORKDIR /opt
 RUN pip install --no-cache-dir \
         pandas==1.0.3 \
         mecab-python3 \
+        unidic-lite \
         sklearn \
         Whoosh \
         fastapi \
