@@ -1,6 +1,7 @@
 FROM python:3.7
 
 RUN mkdir -p /opt/muzeeglot
+RUN mkdir -p /usr/local/etc
 WORKDIR /opt
 
 RUN pip install --no-cache-dir \
@@ -16,6 +17,8 @@ RUN pip install --no-cache-dir \
         requests \
         uvloop
 
+# NOTE: this is required for mecab to start.
+RUN touch /usr/local/etc/mecabrc
 COPY src/ muzeeglot/
 COPY entrypoint.sh ./
 EXPOSE 80
