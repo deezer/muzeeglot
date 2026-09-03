@@ -75,13 +75,13 @@ def get_entities_corpus() -> Dict:
 
 
 def generate_eid() -> str:
-    """ Generate and returns a unique identifier for entity. Based of uuid4
+    """ Generates and returns a unique identifier for entity. Based on uuid4
     generation and looped until uuid does not exists in storage.
 
     Returns
     -------
     eid: str
-        Generated eid that not exists in storage.
+        Generated eid that does not exist in storage.
     """
     eid = uuid4().hex
     locales = Language.locales()

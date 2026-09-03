@@ -27,7 +27,7 @@ class Language(object):
 
     @staticmethod
     def locales() -> List[Locale]:
-        """ Find and returns a list of locale from storage.
+        """ Finds and returns a list of locale from storage.
 
         Returns
         -------
@@ -41,7 +41,7 @@ class Language(object):
 
     @staticmethod
     def label(locale: Locale) -> str:
-        """ Find and returns a label for a given locale.
+        """ Finds and returns a label for a given locale.
 
         Parameters
         ----------
@@ -56,7 +56,7 @@ class Language(object):
         Raises
         ------
         ValueError
-            If no label exist for this locale.
+            If no label exists for this locale.
         """
         label = storage.get(f'locale:{locale}')
         if label is None:
@@ -83,7 +83,7 @@ class Tags(object):
     @staticmethod
     def from_uri(entity: str) -> str:
         """ Extracts the name of the given entity (which is assumed to be a
-        DBPedia URI), by removing leading URI part.
+        DBPedia URI), by removing the leading URI part.
 
         Parameters
         ----------
@@ -122,7 +122,7 @@ class Tags(object):
 
     @staticmethod
     def from_entities(eid: EntityId, locale: Locale) -> List[str]:
-        """ Find and returns a list of tag for the entity using given locale.
+        """ Finds and returns a list of tags for the entity using given locale.
 
         Parameters
         ----------
@@ -134,7 +134,7 @@ class Tags(object):
         Returns
         -------
         tags: List[str]
-            List of tag for this (entity, locale) pair
+            List of tags for this (entity, locale) pair
         """
         key = f'{eid}:{locale}:tags'
         length = storage.llen(key)
@@ -192,10 +192,10 @@ class Entity(object):
     @staticmethod
     def name(uri: str) -> str:
         """ Extracts the name of the given entity (which is assumed to be a
-        DBPedia URI), by removing leading URI part.
+        DBPedia URI), by removing the leading URI part.
 
-        Paramters
-        ---------
+        Parameters
+        ----------
         uri: str
             Entity to extract name from as DBPedia URI.
 

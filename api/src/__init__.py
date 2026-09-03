@@ -92,7 +92,7 @@ def search(request: SearchQuery) -> List[Dict[str, Any]]:
 
 @api.post('/predict')
 def predict(request: PredictModel) -> List[str]:
-    """ GET /predict endpoint. """
+    """ POST /predict endpoint. """
     sources = request.sources
     target = request.target
     mapper = GenreMapper.get(sources, target, Tags.from_locale)
