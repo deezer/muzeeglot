@@ -27,11 +27,11 @@ wakati = MeCab.Tagger('-Owakati')
 
 def normalize(tag: str) -> str:
     """ Normalize the given tag by removing special chars and / or replacing
-    them by blank spaces. Assume that the given tag as the following prefixed
+    them by blank spaces. Assume that the given tag has the following prefixed
     structure : `lang:tag`.
 
-    If the target lang is `ja` then it will performs an additional
-    normalization based on `MeCab wakiti` parser.
+    If the target lang is `ja` then it will perform an additional
+    normalization based on `MeCab wakati` parser.
 
     Parameters
     ----------
@@ -64,10 +64,10 @@ def normalize(tag: str) -> str:
 
 def get_genre_name(entity: str) -> str:
     """ Extracts the name of the given entity (which is assumed to be a DBPedia
-    URI), by removing leading URI part.
+    URI), by removing the leading URI part.
 
-    Paramters
-    ---------
+    Parameters
+    ----------
     entity: str
         Entity to extract name from as DBPedia URI.
 
@@ -127,7 +127,7 @@ class GenreMapper(object):
         tags: List[str]
             Tag to predict translation for.
         tfilter: Callable[[str], bool]
-            A filtering predicate that returns `True` if tag need to be kept.
+            A filtering predicate that returns `True` if a tag needs to be kept.
         Returns
         -------
         predictions: List[str]
@@ -144,7 +144,7 @@ class GenreMapper(object):
 
     @classmethod
     def load_embeddings(cls: type) -> None:
-        """ Class factory method that load embeddings data. """
+        """ Class factory method that loads embeddings data. """
         path = configuration.EMBEDDINGS
         if not exists(path):
             raise IOError(f'Embeddings file {path} not found')
